@@ -1,0 +1,31 @@
+.feed {
+    &__block {
+        display: flex;
+        margin-top: 100px;
+    }
+    &__descr {
+        margin-left: 60px;
+    }
+    &__subtitle {
+        font-size: 14px;
+        font-weight: 300;
+        color: #646464;
+        margin-bottom: 10px;
+        p {
+            font-size: 18px;
+            font-weight: 700;
+            color: #0d0d0d;
+            margin-bottom: 0;
+        }
+    }
+    &__text {
+        font-size: 16px;
+        font-weight: 300;
+        color: #0d0d0d;
+        margin-top: 20px;
+        hr {
+            border: 0;
+            margin: 0.5rem 0;
+        }
+    }
+}
